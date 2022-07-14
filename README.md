@@ -10,3 +10,4 @@ Code to create figures of Epigenetic plasticity enables copepods to cope with oc
 - correlation_among_group.R : Correlation test of among groups with Mantel test and Kendall's correlation (Supplementary Fig. 4)
 - histone_heatmap.R : Heatmap for histone and histone modification genes (Supplementary Fig. 10)
 - slidingwinodw_methylation.R : Calculate slidingwindow of DNA methylation on the genome and draw line plot
+- batch.R, batch2.R : remove batch effect from groups with different time sequenced - using two method sva, and ComBat
