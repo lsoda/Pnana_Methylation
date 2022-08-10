@@ -5,12 +5,12 @@ Code to create figures of article "Epigenetic plasticity enables copepods to cop
   - Windows 10, Ubuntu ver. 18.0.4 LTS
   - R and Rstudio (I used R version 3.6.4)
   - R package
-   'dplyr' : Data manipulation
-   'tidyverse' : Data manipulation
-   'ggplot2' : Plotting the results
-   'pheatmap' : Heatmap plotting
-   'RColorBrewer' : Diverse color for plots
-   'sva' : To remove batch effect between experimental samples
+    - 'dplyr' : Data manipulation
+    - 'tidyverse' : Data manipulation
+    - 'ggplot2' : Plotting the results
+    - 'pheatmap' : Heatmap plotting
+    - 'RColorBrewer' : Diverse color for plots
+    - 'sva' : To remove batch effect between experimental samples
 
 * Custom code
   - `GBM_fraction.R` : Compare methylation fraction (log10Methylation%) and GBM change (logDMR), and GBM compare between generation grpus (Fig. 5b)
