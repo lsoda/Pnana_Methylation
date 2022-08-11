@@ -1,7 +1,11 @@
 # Pnana_Methylation
 Code to create figures of article "Epigenetic plasticity enables copepods to cope with ocean acidification" by Lee et al., 2022 accepted in Nat. Clim. Change.
-Methylation analysis were followed the https://github.com/lyijin/working_with_dna_meth and https://github.com/lyijin/pdae_dna_meth that used in "Intergenerational epigenetic inheritance in reef-building corals" of Nature climate change.
-Transcriptome data were produced by new tuxedo protocol ("Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown", Nature Protocol).
+
+DNA methylation data were called and analyzed by Bismark program and followed the https://github.com/lyijin/working_with_dna_meth and https://github.com/lyijin/pdae_dna_meth that used in "Intergenerational epigenetic inheritance in reef-building corals" of Nature climate change. 
+
+Transcriptome data were produced by new tuxedo protocol ("Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown", Nature Protocol). We used Hisat2, StringTie, and Ballgown R package to count transcriptome and differential expression analysis.
+
+These codes in repository were made to manipulate methylation and transcriptome data and visualized results as plots.
 
 * Requirement (in my case)
   - Windows 10, Ubuntu ver. 18.0.4 LTS
