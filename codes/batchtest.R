@@ -18,7 +18,7 @@ hist(fit$coefficients[2,],col=2,breaks=100)
 table(pheno$cancer,pheno$batch)
 
 #Adjusting for batch effects with Combat
-#returns a ¡°cleaned¡± data matrix after batch effects have been removed
+#returns a Â¡Â°cleanedÂ¡Â± data matrix after batch effects have been removed
 batch = pheno$batch
 modcombat = model.matrix(~1, data=pheno)
 modcancer = model.matrix(~cancer, data=pheno)
@@ -35,7 +35,7 @@ abline(c(0,1),col=1,lwd=3)
 #Adjusting for batch effects with sva
 ##First we need to estimate the surrogate variables. 
 ##To do this, we need to build a model with any known adjustment variables and the variable we care about mod and another model with only the adjustment variables.
-##Here we won¡¯t adjust for anything to see if sva can ¡°discover¡± the batch effect.
+##Here we wonÂ¡Â¯t adjust for anything to see if sva can Â¡Â°discoverÂ¡Â± the batch effect.
 mod = model.matrix(~cancer,data=pheno)
 mod0 = model.matrix(~1, data=pheno)
 sva1 = sva(edata,mod,mod0,n.sv=2)
@@ -70,7 +70,7 @@ ctl.10 <- snps.10[controls,use]
 xxmat <- xxt(ctl.10, correct.for.missing=FALSE)
 evv <- eigen(xxmat, symmetric=TRUE)
 pcs <- evv$vectors[,1:5]
-#Let¡¯s compare the PCs to the population labels and see that PC1 captures the population variable very well
+#LetÂ¡Â¯s compare the PCs to the population labels and see that PC1 captures the population variable very well
 pop <- subject.support[controls,"stratum"]
 plot(pcs[,1],pcs[,2],col=as.numeric(pop),
      xlab="PC1",ylab="PC2")
