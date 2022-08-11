@@ -1,8 +1,6 @@
 # Pnana_Methylation
-Code to create figures of article "Epigenetic plasticity enables copepods to cope with ocean acidification" by Lee et al., 2022 accepted in Nat. Clim. Change
-
+Code to create figures of article "Epigenetic plasticity enables copepods to cope with ocean acidification" by Lee et al., 2022 accepted in Nat. Clim. Change.
 Methylation analysis were followed the https://github.com/lyijin/working_with_dna_meth and https://github.com/lyijin/pdae_dna_meth that used in "Intergenerational epigenetic inheritance in reef-building corals" of Nature climate change.
-
 Transcriptome data were produced by new tuxedo protocol ("Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown", Nature Protocol).
 
 * Requirement (in my case)
