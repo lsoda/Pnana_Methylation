@@ -7,6 +7,10 @@ Transcriptome data were produced by new tuxedo protocol ("Transcript-level expre
 
 These codes in repository were made to manipulate methylation and transcriptome data and visualized results as plots.
 
+* Methylation file
+  - Cov file from Bismark results and filtered and annotated following working_with_dna_meth 
+  - F0N, F0M, F1M, F2M, F3N, F3M, F4M, F1T, and F2T groups (detailed informations are described in the subfolder)
+
 * Requirement (in my case)
   - Windows 10, Ubuntu ver. 18.0.4 LTS
   - R and Rstudio (I used R version 3.6.4)
